@@ -1,0 +1,1 @@
+FOR /d %%X IN (*) DO "C:\Program Files\7-Zip\7z.exe" a -tzip -mx=0 "%%X.cbr" "%%X\"
